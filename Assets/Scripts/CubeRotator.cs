@@ -9,7 +9,5 @@ public class CubeRotator : MonoBehaviour
     void Update()
     {
         transform.Rotate(Vector3.up * RotationSpeed * Time.deltaTime);
-
-        // Teste
     }
 }
